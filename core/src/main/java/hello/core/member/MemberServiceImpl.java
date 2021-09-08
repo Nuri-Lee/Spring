@@ -1,9 +1,17 @@
 package hello.core.member;
 
+// 역할 : 실행하는 역할
 public class MemberServiceImpl implements MemberService {
 
     // 다형성에 의해 인터페이스인 MemberRepository 가 아닌 MemoryMemberRepository 가 호출된다.
-    private final MemberRepository memberRepository = new MemoryMemberRepository();
+    //private final MemberRepository memberRepository = new MemoryMemberRepository();   // DIP, OCP 위반
+    private final MemberRepository memberRepository;    // DIP 가 잘 지켜짐 == 인터페이스에만 의존
+                                                        // -> 의존관계에 대한 고민은 외부에 맡기고 실행에만 집중.
+
+    // 생성자를 통해서 MemberRepository 에 들어가는 구현체를 갖고 온다.
+    public MemberServiceImpl(MemberRepository memberRepository) {
+        this.memberRepository = memberRepository;
+    }
 
     @Override
     public void join(Member member) {

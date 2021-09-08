@@ -12,8 +12,12 @@ public class OrderApp {
 
     // 메인 메소드로 테스트하는 것은 좋지 않다. 자동화 된 테스트로 실행해야 한다.
     public static void main(String[] args) {
-        MemberService memberService = new MemberServiceImpl();
-        OrderService orderService = new OrderServiceImpl();
+
+        AppConfig appConfig = new AppConfig();
+        MemberService memberService = appConfig.memberService();
+        OrderService orderService = appConfig.orderService();
+        //MemberService memberService = new MemberServiceImpl();
+        //OrderService orderService = new OrderServiceImpl();
 
         // memberId 생성
         Long memberId = 1L;
