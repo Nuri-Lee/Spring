@@ -7,6 +7,7 @@ import hello.core.member.Member;
 import hello.core.member.MemberRepository;
 import hello.core.member.MemoryMemberRepository;
 
+// OrderServiceImpl == 클라이언트 코드
 public class OrderServiceImpl implements OrderService {
 
     //private  final MemberRepository memberRepository = new MemoryMemberRepository();

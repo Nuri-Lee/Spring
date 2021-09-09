@@ -27,7 +27,7 @@ public class OrderApp {
         memberService.join(member);
 
         // 주문 생성
-        Order order = orderService.createOrder(memberId, "itemA", 10000);
+        Order order = orderService.createOrder(memberId, "itemA", 20000);
 
         // Order 클래스에 toString 을 해주었기 떄문에 출력하면 toString 으로 호출해준다.
         System.out.println("order = " + order);
