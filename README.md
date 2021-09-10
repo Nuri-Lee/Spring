@@ -20,16 +20,16 @@
     - DB 연동 - JDBC, JPA, 스프링 데이터 JPA
     - 테스트 케이스 작성
 
-    ### Spring Basic ::
+### Spring Basic ::
 
-    📄 강의명
+📄 강의명
 
-    [스프링 핵심 원리 - 기본편](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%ED%95%B5%EC%8B%AC-%EC%9B%90%EB%A6%AC-%EA%B8%B0%EB%B3%B8%ED%8E%B8/dashboard)
+[스프링 핵심 원리 - 기본편](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%ED%95%B5%EC%8B%AC-%EC%9B%90%EB%A6%AC-%EA%B8%B0%EB%B3%B8%ED%8E%B8/dashboard)
 
-    강의 목표
+강의 목표
 
-    ✅ Spring 기능과 만든 이유, 핵심 원리를 설명할 수 있다.
+✅ Spring 기능과 만든 이유, 핵심 원리를 설명할 수 있다.
 
-    ✅ 객체 지향 설계에 초점을 둔다.
+✅ 객체 지향 설계에 초점을 둔다.
 
 👨‍🏫 지식공유자 : [김 영한](https://www.inflearn.com/users/@yh)
